@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const fallbackApiOrigins = ['http://localhost:4000', 'http://127.0.0.1:4000'];
+const fallbackApiOrigins = ['https://travalapp-backend.vercel.app', 'https://travalapp-backend.vercel.app'];
 const candidateOrigins = [
   process.env.NEXT_PUBLIC_API_BASE_URL,
   process.env.API_BASE_URL,
